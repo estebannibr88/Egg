@@ -17,7 +17,7 @@ public class ej13 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner leer = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in).useDelimiter("\n");
         System.out.println("INGRESAR EL TAMAÑO DEL CUADRADO");
         int tamaño = leer.nextInt();
         for (int i = 1; i <= tamaño; i++) {
