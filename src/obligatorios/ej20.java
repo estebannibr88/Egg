@@ -32,7 +32,6 @@ public class ej20 {
                 System.out.print(" [" + matriz[i][j] + "]");
             }
             System.out.println("");
-
         }
         for (int j = 0; j < 3; j++) {
             suma += matriz[0][j];
